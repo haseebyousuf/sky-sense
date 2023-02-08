@@ -2,4 +2,110 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    background: rgb(106,99,235);
+    background-image: linear-gradient(180deg,#2f6ed3 5%,#5095e4 20%,#5095e4 60%,#2f6ed3 95%);
 }
+
+.card{
+    padding: 2rem;
+    width: 100%;
+    max-width: 420px;
+    margin: 1rem;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 25px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.search button {
+    background: #dde1eb;
+    height: 2rem;
+    margin: 0.3rem;
+    border-radius: 50%;
+    border: none;
+    width: 2rem;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.search button:hover {
+    background: #ffffff;
+}
+
+input.search-bar {
+    background: #dde1eb;
+    border-radius: 19px;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    font-size: 120%;
+    font-family: inherit;
+    font-weight: 500;
+}
+
+h1.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+  }
+  
+  .weather-status {
+    display: flex;
+    align-items: center;
+  }
+  
+  .description {
+    text-transform: capitalize;
+    margin-left: 8px;
+  }
+
+  .details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 1rem;
+  }
+  
+.details p{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+   
+}
+  /* .weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+  }
+  
+  .weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  } */
