@@ -4,14 +4,19 @@
     box-sizing: border-box;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     }
-    
+
+/* .app{
+    height: 100vh;
+    background-image: linear-gradient(180deg,#2f6ed3 5%,#5095e4 20%,#5095e4 60%,#2f6ed3 95%);
+
+} */
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     margin: 0;
-    background: rgb(106,99,235);
+    /* background: rgb(106,99,235); */
     background-image: linear-gradient(180deg,#2f6ed3 5%,#5095e4 20%,#5095e4 60%,#2f6ed3 95%);
 }
 
