@@ -1,4 +1,4 @@
-const API_KEY = "34d84920f1754ae9bcb1e99d53657e3f";
+const API_KEY = process.env.WEATHER_API_KEY;
 
 const makeIconUrl = (iconId) =>
     `https://openweathermap.org/img/wn/${iconId}@2x.png`;
@@ -8,6 +8,7 @@ export const getWeatherData = async (city, units = "metric") => {
     const response = await fetch(URL);
     const data = await response.json();
     const {
+        name,
         weather,
         main: { temp, feels_like, humidity, pressure },
         wind: { speed },
@@ -16,6 +17,7 @@ export const getWeatherData = async (city, units = "metric") => {
     const { description, icon } = weather[0];
 
     return {
+        name,
         temp,
         iconUrl: makeIconUrl(icon),
         description,
