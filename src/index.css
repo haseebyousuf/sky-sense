@@ -62,6 +62,9 @@
 .search button:hover {
     background: #ffffff;
 }
+.search button:focus{
+    background: #dde1eb;
+}
 
 input.search-bar {
     background: #dde1eb;
