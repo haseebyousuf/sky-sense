@@ -12,8 +12,10 @@ node_modules
 # production
 /build
 
-# misc
+# API keys
 .env
+
+# misc
 .DS_Store
 .env.local
 .env.development.local
