@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sky-sense/static/css/main.2cf8d953.css",
+    "main.js": "/sky-sense/static/js/main.637166ee.js",
+    "index.html": "/sky-sense/index.html",
+    "main.2cf8d953.css.map": "/sky-sense/static/css/main.2cf8d953.css.map",
+    "main.637166ee.js.map": "/sky-sense/static/js/main.637166ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cf8d953.css",
+    "static/js/main.637166ee.js"
+  ]
+}
